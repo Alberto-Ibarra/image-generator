@@ -1,6 +1,7 @@
 import './App.css'
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
+import { Analytics } from '@vercel/analytics/react';
 import { Configuration, OpenAIApi }  from "openai";
 import getConfig from 'next/config';
 import {useState, useEffect} from 'react';
@@ -94,5 +95,6 @@ export default function App({ Component, pageProps }: AppProps) {
           />
       }
     </>
+    <Analytics />
   </div>
 }
