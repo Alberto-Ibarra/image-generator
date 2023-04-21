@@ -65,7 +65,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
 
   return <div className='flex flex-col items-center h-screen' >
-    <h2 className='text-yellow-300 my-8 text-center opacity-90 text-2xl md:text-4xl font-bold'>Create Images With Imagination</h2>
+    <h2 className='text-yellow-300 my-8 text-center opacity-90 text-2xl md:text-4xl font-bold'>Create Images With You Imagination</h2>
     <textarea 
       className='w-96 h-32 mb-10 p-1 shadow-xl rounded' 
       placeholder='Create any type of image you can think of with as much description as you like'
