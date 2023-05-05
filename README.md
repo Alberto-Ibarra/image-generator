@@ -19,7 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Technologies
 
-React, Next.js, OpenAI API, Tailwind CSS
+React, Next.js, TypeScript, OpenAI API, Tailwind CSS
 
 ## Description
 
